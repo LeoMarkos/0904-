@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+int main()
+{
+	char a[100];
+	char *ch;
+	int n,count=0;
+	printf("请输入:\n");
+	gets(a);
+	n=strlen(a);
+	ch=(char*)malloc(sizeof(char));
+	printf("请输入需要统计的单词:\n");
+
+	scanf("%s",ch);
+
+ for(int i=0;i<n;i++)
+{
+	if(a[i]==*ch)
+	{
+	 if(a[i+1]==*(ch+1))
+	 {
+	 count++;
+	 }
+	}
+}
+ printf("单词数量为%d\n",count);
+return 0;
+}
