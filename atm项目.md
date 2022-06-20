@@ -1,5 +1,4 @@
 # 0904-
-Hi~ o(*￣▽￣*)ブ
 #include "stdio.h"
 #include "string.h"
 #include "conio.h"
